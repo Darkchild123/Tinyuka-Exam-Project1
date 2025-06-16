@@ -79,9 +79,9 @@ sudo certbot --apache -d cloudhorse.space -d www.cloudhorse.space
 
 6)   Launched www.cloudhorse.space on a browser
 
-7)   ![Screenshot__cloudhorse space](https://github.com/user-attachments/assets/282d7d88-3632-4af3-8847-ce1f2c980ae8)
+Here is a screenshot of the rendered page in a browser 
 
-
+![Screenshot ](https://github.com/user-attachments/assets/6b6024ec-0737-4012-93da-9269ee7d61ba)
 
   
     
