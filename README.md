@@ -43,9 +43,14 @@ nano app.js
 **script**:
 const http = require('http');
 const server = http.createServer((req, res) => {
-res.end('Hello from Node.js behind Nginx!');
+  res.writeHead(200, { 'Content-Type': 'text/html' });
+  res.end('<h1>Hello from Node.js backend!</h1>');
 });
-server.listen(3000);
+
+server.listen(8080, () => {
+  console.log('Server running on http://localhost:8080');
+});
+
 
 3) Replaced Default Web Root:
    Added my html file to /var/www/html
